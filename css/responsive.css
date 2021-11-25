@@ -1,0 +1,321 @@
+@media (min-width:320px) and (max-width:575.90px) {
+    
+    /*============== Banner area ============== */
+    .banner_contant {
+        margin-top: 90px;
+    }
+
+    .banner_contant p.text1 {
+        font-size: 44px;
+    }
+
+    .banner_contant h1.text2 {
+        font-size: 65px;
+    }
+
+    /* ============ About area ================= */
+
+    .about_area {
+        margin: 40px 0 56px 0;
+    }
+
+    .about_area .section_heading{
+        text-align: center;
+    }
+
+    .about_area .section_heading p {
+        font-size: 16px;
+    }
+
+    .about_area .section_heading h2 {
+        font-size: 35px;
+    }
+
+    .about_area .text2 {
+        padding: 20px 0 21px 0;
+    }
+
+    .about_area .about_list p {
+        padding-bottom: 10px;
+    }
+
+    .about_area .about_list{
+        margin-bottom: 12px;
+    }
+
+    .about_area .about_btn{
+        display: inline;
+        font-size: 18px;
+        margin: 7px 10px 0 0;
+    }
+
+    .about_area .about_bg{
+        margin-top: 35px;
+    }
+
+    /* ============ Skill area ============= */
+
+    .skill_area .section_heading{
+        text-align: center;
+    }
+
+    .skill_area p {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+
+    .skill_area h2 {
+        font-size: 36px;
+    }
+
+    .skill_content .progress_content {
+        padding: 0 14px 0 49px;
+    }
+
+    /* ============ service area =============== */
+
+    .service_area {
+        margin: 85px 0;
+    }   
+
+    /*============= Blog area ==================*/
+
+    .blog_area .section_header {
+        padding-bottom: 15px;
+    }
+
+    .blog_arrow .blog_left_arrow i {
+        left: 5%;
+        top: 49%;
+    }
+    .blog_arrow .blog_right_arrow i {
+        right: 5%;
+        top: 49%;
+    }
+
+    .blog_area .browse_btn a {
+        margin: 100px 0;
+    }
+
+    .blog_arrow .blog_left_arrow i {
+        left: calc(25% + 8px);
+        top: 70%;
+    }
+
+    .blog_arrow .blog_right_arrow i {
+        left: calc(56% + 8px);
+        top: 70%;
+    }
+
+    .blog_arrow .blog_left_arrow i,
+    .blog_arrow .blog_right_arrow i {
+        box-shadow: 0 0 26px -4px rgb(34 31 31 / 50%);
+    }
+
+    /*============= Footer area ==================*/
+    
+    .footer_area .col-lg-2 h5,
+    .footer_area .col-lg-3 h5{
+        margin-top: 25px;
+    }
+    
+}
+
+@media (min-width:576px) and (max-width:767.90px) {   
+
+    /* =========== skill Area =============== */
+    
+    .skill_content .progress_content {
+        padding: 0 20px 0 63px;
+    }
+
+    .skill_area .section_heading {
+        text-align: center;
+    }
+
+    /* =========== Portfolio Area =============== */
+
+    .port_arrow .left_arrow i {
+        left: 36%;
+        top: 70%;
+    }
+
+    .port_arrow .right_arrow i {
+        right: 39%;
+        top: 70%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.90px) { 
+
+    /* ============= portfolio area =============== */
+
+    .port_arrow .left_arrow i {
+        left: calc(1% + -11px);
+        top: 46%;
+    }
+    
+    .port_arrow .right_arrow i {
+        right: calc(3% + 2px);
+        top: 46%;
+    }
+}
+
+@media (min-width:320px) and (max-width:767.90px) {
+
+    /* =========== Testimonial Area ============= */
+    .testimonial_area {
+        margin: 70px 0;
+    }
+    
+    .testimonial_area .test_content{
+        position: relative;
+        margin-top: 140px;
+    }
+
+    .testimonial_area .test_content .test_img{
+        position: absolute;
+        top: -26%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .testimonial_area .test_content .test_img img{
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+
+    .testimonial_area .test_details {
+        padding: 40px 35px 10px 35px;
+    }
+
+    .testimonial_area .test_details h4{
+        padding-bottom: 20px;
+    }
+
+
+    .testi_arrow .testi_left_arrow i {
+        left: calc(1% + -16px);
+        top: 65%;
+    }
+
+    .testi_arrow .testi_right_arrow i {
+        right: calc(-3% + 7px);
+        top: 65%;
+    }
+
+    /* =============porfolio area ================ */
+
+        .port_arrow .left_arrow i {
+            left: calc(1% + -13px);
+            top: 45%;
+        }
+    
+        .port_arrow .right_arrow i {
+            right: calc(3% + 3px);
+            top: 45%;
+        }
+}
+
+@media (min-width:320px) and (max-width:991.90px) { 
+    
+    /* ================= Top header area =================== */
+
+    .left_text,
+    .right_text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .top_header p {
+        padding: 8px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #mynav > ul {
+        text-align: center;
+        margin-left: 0;
+        background: #fff;
+        color: #4b4949;
+    }
+
+    #mynav .srch_box > li {
+        text-align: center;
+        background-color: #fff;
+        padding: 15px 0px;
+        margin-right: 0;
+    }
+    
+    /* ============ skill area =============== */
+
+    .skill_area{
+        height: 550px;
+    }
+    
+    .skill_area .skill_item{
+        height: 0;
+    }
+
+    /* ============ testimonial area =============== */
+
+    .testimonial_area {
+        margin: 100px 0;
+    }
+
+    /* ============ Foooter area =============== */
+
+    .footer_area .col-lg-4 h5 {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1199.90px) {
+
+    /* ============ Top header ============= */
+
+    #mynav .srch_box > li {
+        padding: 35px 10px;
+    }
+
+    .top_header li.srch_icon {
+        margin-top: 10px;
+    }
+
+    /* ============ testimonial Area ============= */
+    
+    .test_content .test_details p {
+        padding: 0 0 2px 0;
+        line-height: 24px;
+    }
+}
+
+@media (min-width:575.90px) and (max-width:991.90px) {
+
+    /* ============== about area =============== */
+
+    .about_area .about_bg{
+        margin-top: 35px;
+    }
+
+    /* ============ service area ============= */
+
+    .service_area {
+        margin: 40px 0;
+    }
+
+    /* ========== footer area ================= */
+
+    .footer_area .col-lg-2 h5,
+    .footer_area .col-lg-3 h5{
+        margin-top: 30px;
+    }
+}
